@@ -3,6 +3,8 @@ A DSLR camera image capture environment used for approximating real life photo c
 
 The repository contains an older version of the application presented in the paper [Interactive Environment for Testing SfM Image Capture Configurations](https://www.scitepress.org/Papers/2019/75667/75667.pdf)
 
+![Visual](Images/RealWorldCam.gif)
+
 # Requirements
 
 - The project requires Unity 2019.3.7f1 or higher to run
@@ -22,6 +24,7 @@ For controlling the in-game camera first the view needs to be switched from walk
   - The aperture
   - The shutter speed
   - The ISO
+  
 Each of these effects the final brightness of the shot of the scene, as well as adding additional screen space effects like chaning focus, adding noise, introduction of blur, etc.
 Right mouse click captures an image from the environment as a screenshot.
 
